@@ -34,11 +34,6 @@
           "description": "L'identifiant unique de marché public est un numéro d'ordre interne propre à l’acheteur public (1 caractère minimum à 16 caractères maximum). Les caractères spéciaux suivants sont à éviter autant que possible : &, \", \\, <, espace, virgule, point-virgule. Exemples : 1234 ou C123_456-98777nz",
           "$ref": "#/definitions/marche/definitions/IdentifiantMarche"
         },
-        "_type": {
-          "title": "Type d'objet (marché, contrat de concession)",
-          "type": "string",
-          "pattern": "^Marché$"
-        },
         "acheteur": {
           "title": "Acheteur ou mandataire du marché",
           "description": "Si le marché est passé par un groupement d'acheteurs, c'est le mandataire du groupement qui est décrit dans les données.",
